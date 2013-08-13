@@ -18,6 +18,8 @@
 		5356874017860E2F00BCC169 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5356873F17860E2F00BCC169 /* Default-568h@2x.png */; };
 		5356874317860E2F00BCC169 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5356874117860E2F00BCC169 /* MainStoryboard.storyboard */; };
 		5356874617860E2F00BCC169 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5356874517860E2F00BCC169 /* ViewController.m */; };
+		538D24EE1787149E00395E75 /* IMG_3149.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 538D24ED1787149E00395E75 /* IMG_3149.JPG */; };
+		538D24F1178715EE00395E75 /* UserInterfaceFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 538D24F0178715EE00395E75 /* UserInterfaceFunViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		5356874217860E2F00BCC169 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5356874417860E2F00BCC169 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5356874517860E2F00BCC169 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		538D24ED1787149E00395E75 /* IMG_3149.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3149.JPG; sourceTree = "<group>"; };
+		538D24EF178715EE00395E75 /* UserInterfaceFunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInterfaceFunViewController.h; sourceTree = "<group>"; };
+		538D24F0178715EE00395E75 /* UserInterfaceFunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInterfaceFunViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,8 @@
 				5356873817860E2F00BCC169 /* AppDelegate.h */,
 				5356873917860E2F00BCC169 /* AppDelegate.m */,
 				5356874117860E2F00BCC169 /* MainStoryboard.storyboard */,
+				538D24EF178715EE00395E75 /* UserInterfaceFunViewController.h */,
+				538D24F0178715EE00395E75 /* UserInterfaceFunViewController.m */,
 				5356874417860E2F00BCC169 /* ViewController.h */,
 				5356874517860E2F00BCC169 /* ViewController.m */,
 				5356873017860E2F00BCC169 /* Supporting Files */,
@@ -96,6 +103,7 @@
 		5356873017860E2F00BCC169 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				538D24ED1787149E00395E75 /* IMG_3149.JPG */,
 				5356873117860E2F00BCC169 /* Examples-Info.plist */,
 				5356873217860E2F00BCC169 /* InfoPlist.strings */,
 				5356873517860E2F00BCC169 /* main.m */,
@@ -163,6 +171,7 @@
 				5356873E17860E2F00BCC169 /* Default@2x.png in Resources */,
 				5356874017860E2F00BCC169 /* Default-568h@2x.png in Resources */,
 				5356874317860E2F00BCC169 /* MainStoryboard.storyboard in Resources */,
+				538D24EE1787149E00395E75 /* IMG_3149.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				5356873617860E2F00BCC169 /* main.m in Sources */,
 				5356873A17860E2F00BCC169 /* AppDelegate.m in Sources */,
 				5356874617860E2F00BCC169 /* ViewController.m in Sources */,
+				538D24F1178715EE00395E75 /* UserInterfaceFunViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +308,7 @@
 				5356874B17860E2F00BCC169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
